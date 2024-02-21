@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 .container {
@@ -33,6 +34,10 @@
     height: 40px;
     margin-top: 40px;
     padding: 0px 10px;
+    font-size: 18px;
+    outline:none;
+    border-radius: 10px;
+    border: none;
 }
 
 .time {
@@ -136,4 +141,7 @@ select {
     font-size: 18px;
     border: none;
     border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    
 }
